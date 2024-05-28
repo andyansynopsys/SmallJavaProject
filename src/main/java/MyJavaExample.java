@@ -3,6 +3,7 @@ public class MyJavaExample {
         int loops = 100;
         int total = getTotal(loops);
         System.out.print(total);
+        getString();
     }
 
     // infinite loop issue
