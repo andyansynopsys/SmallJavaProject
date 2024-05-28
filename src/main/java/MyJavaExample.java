@@ -33,7 +33,7 @@ public class MyJavaExample {
     public static class QueryClauses {
         public String fromClause; // this is from clause.
         public String whereClause; // this is where clause.
-        public String havingClause; // this is having clause.
+        public String havingClause;
 
 
         public QueryClauses(String fromClause, String whereClause, String havingClause) {
