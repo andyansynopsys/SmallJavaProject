@@ -13,9 +13,6 @@ public class MyJavaExample {
         return total;
     }
     
-    
- 
-    
     public static class QueryClauses {
         public String fromClause;
         public String whereClause;
