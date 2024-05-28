@@ -21,7 +21,9 @@ public class MyJavaExample {
     // Out-of-bounds Read
     private static void getString() {
         String [] array = new String[2];
-        array[2] = "test";
+        for (int i = 0; i < 3; i++) {
+            System.out.println(array[i]);
+        }
     }
     
     public static class QueryClauses {
