@@ -4,6 +4,7 @@ public class MyJavaExample {
         System.out.print(getTotal(loops));
     }
 
+    // infinite loop issue
     private static int getTotal(int loops) {
         int total = 0;
         while (loops > 0) {
