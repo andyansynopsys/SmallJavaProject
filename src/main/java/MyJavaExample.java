@@ -6,7 +6,7 @@ public class MyJavaExample {
 
         // THIS needs to be refactored.
         getString();
-        QueryClauses queryClauses = new QueryClauses("from", "where", "having");
+        QueryClauses queryClauses = new QueryClauses("aa", "xx", "ff");
     }
 
     // infinite loop issue
