@@ -24,7 +24,7 @@ public class MyJavaExample {
     // Out-of-bounds Read
     private static void getString() {
         String [] array = new String[2];
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i <= array.length; i++) {
             System.out.println(array[i]);
         }
     }
