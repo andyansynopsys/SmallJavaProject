@@ -12,6 +12,11 @@ public class MyJavaExample {
         }
         return total;
     }
+
+    private static void testGetTotal() {
+        int total = getTotal(1);
+    }
+    
     
     public static class QueryClauses {
         public String fromClause;
