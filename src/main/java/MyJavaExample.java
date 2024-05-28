@@ -1,7 +1,8 @@
 public class MyJavaExample {
     public static void main(String[] args) {
         int loops = 100;
-        System.out.print(getTotal(loops));
+        int total = getTotal(loops);
+        System.out.print(total);
     }
 
     // infinite loop issue
@@ -16,7 +17,12 @@ public class MyJavaExample {
     private static void testGetTotal() {
         int total = getTotal(1);
     }
-    
+
+    // Out-of-bounds Read
+    private static void getString() {
+        String [] array = new String[2];
+        array[2] = "test";
+    }
     
     public static class QueryClauses {
         public String fromClause;
