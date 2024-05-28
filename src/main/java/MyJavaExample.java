@@ -31,8 +31,8 @@ public class MyJavaExample {
     }
     
     public static class QueryClauses {
-        public String fromClause; // this is from clause.
-        public String whereClause; // this is where clause.
+        public String fromClause;
+        public String whereClause;
         public String havingClause;
 
 
