@@ -15,6 +15,11 @@ public class ProjectTest {
     }
 
 
+    public void test02() {
+        int loops = 100;
+        int total = getTotal(loops);
+        System.out.print(total);
+    }
 
 
     private int getTotal(int loops) {
