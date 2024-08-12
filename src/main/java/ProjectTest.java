@@ -6,7 +6,7 @@ public class ProjectTest {
     public void test() {
         int loops = 100;
         int total = getTotal(loops);
-      //  System.out.print(total);
+        System.out.print(total);
     }
 
 
