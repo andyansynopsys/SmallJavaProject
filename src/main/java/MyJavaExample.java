@@ -43,7 +43,5 @@ public class MyJavaExample {
         }
     }
 
-    public String getServerTimeZone() {
-        return "UTC";
-    }
+
 }
