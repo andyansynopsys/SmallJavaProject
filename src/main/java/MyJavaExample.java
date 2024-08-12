@@ -42,4 +42,8 @@ public class MyJavaExample {
             this.havingClause = havingClause;
         }
     }
+
+    public String getServerTimeZone() {
+        return "UTC";
+    }
 }
