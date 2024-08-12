@@ -43,6 +43,14 @@ public class MyJavaExample {
         }
     }
 
+    // infinite loop issue
+    private static int findElement(int e) {
+        int total = 0;
+        while (e > 0) {
+            total += e;
+        }
+        return total;
+    }
 
 
 }
