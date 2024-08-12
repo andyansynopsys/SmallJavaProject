@@ -11,7 +11,7 @@ public class ProjectTest {
 
     private int getTotal(int loops) {
         int total = 0;
-        while (loops > 0) {
+        if (loops > 0) {
             total += loops;
         }
         return total;
