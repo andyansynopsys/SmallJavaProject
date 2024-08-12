@@ -10,11 +10,11 @@ public class ProjectTest {
     }
 
     private int getTotal(int loops) {
-        int total = 0;
+        int total1 = 0;
         if (loops > 0) {
-            total += loops;
+            total1 += loops;
         }
-        return total;
+        return total1;
     }
 }
 
