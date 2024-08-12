@@ -43,13 +43,6 @@ public class MyJavaExample {
         }
     }
 
-    public static class QueryClauses2 {
-        public String fromClause;
-        public String whereClause;
-        public String havingClause;
-        public String groupByClause;
-        public String orderByClause;
-        public String limitClause;
-    }
+
 
 }
