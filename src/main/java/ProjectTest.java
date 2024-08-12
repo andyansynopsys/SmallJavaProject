@@ -8,6 +8,12 @@ public class ProjectTest {
         int total = getTotal(loops);
         System.out.print(total);
     }
+    public void test01() {
+        int loops = 100;
+        int total = getTotal(loops);
+        System.out.print(total);
+    }
+
 
 
 
