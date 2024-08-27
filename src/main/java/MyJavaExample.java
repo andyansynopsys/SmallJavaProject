@@ -1,4 +1,8 @@
 public class MyJavaExample {
+    /**
+     * Main method
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         int loops = 100;
         int total = getTotal(loops);
