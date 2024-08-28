@@ -8,7 +8,7 @@ public class MyJavaExample {
         int total = getTotal(loops);
         System.out.print(total);
 
-        // THIS needs to be refactored.
+        // This needs to be refactored.
         getString();
         QueryClauses queryClauses = new QueryClauses("aa", "xx", "ff");
     }
@@ -33,7 +33,10 @@ public class MyJavaExample {
             System.out.println(array[i]);
         }
     }
-    
+
+    /**
+     * Test method.
+     */
     public static class QueryClauses {
         public String fromClause;
         public String whereClause;
